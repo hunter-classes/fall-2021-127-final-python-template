@@ -50,7 +50,7 @@ a parameter. *isIncraasing* should return *True* if it continually
 increases. That is given a parameter list L, then L[0] < L[1] < L[2]
 etc. otherwise return *False*.
 
-
+ 
 
 * NumConvert (20pts)
 
@@ -60,6 +60,9 @@ digit numbers and convert it to an integer and return it.
 For example NumConvert([3,5,1]) would return the number 351.
 
 Assume all items in the list are positive single digits.
+
+If you are totally stuck on this, DM me on Zulip and I will provide a
+hint but you won't be able to get full credit if you take the hint.
 
 * BinConvert (20pts)
 
