@@ -1,4 +1,4 @@
-* Fall 2021 - 127 - Exam 1
+* Fall 2021 - 127 - Final Exam - Python - in class
 
 * Last Name: 
 
@@ -8,7 +8,7 @@
 
 * Notes:
 
-* Instructions, part 1
+* Instructions
 
 - When run, the program(s) for each question should print out a line
   explaining what it's testing, call the required functions, and print
@@ -43,59 +43,46 @@ some brief description of what the output should be
 
 Followed by the output of your tests.
 
-* 1
+* isIncreasing (20pts)
 
-Write a function  *f(n,k)*
-that will evaluate
-[[file:/eqn1.png]]
-
-* 2
-
-Write a function *remove_e(sentence)* that
-will take as a parameter a string representing a sentence. It will
-return a new string with all ther occurances of the letter 'e'
-removed.
+Write a function named *isIncreasing* that takes a list of integers as
+a parameter. *isIncraasing* should return *True* if it continually
+increases. That is given a parameter list L, then L[0] < L[1] < L[2]
+etc. otherwise return *False*.
 
 
 
-* 3 
+* NumConvert (20pts)
 
-Write a function *box(length,height)* that will build a string consisting of
-*height* lines. The odd lines will consist of *length* 'O's and the
-even lines will consist of *length* 'X's. For example, *box(5,6)* will
-return:
+Write a function named *NumConvert*. It should take a list of single
+digit numbers and convert it to an integer and return it.
 
-#+BEGIN_SRC 
-OOOOO
-XXXXX
-OOOOO
-XXXXX
-OOOOO
-#+END_SRC
+For example NumConvert([3,5,1]) would return the number 351.
 
-For full credit, if height is an odd number, round it down to the
-nearest even.
+Assume all items in the list are positive single digits.
+
+* BinConvert (20pts)
+
+Write a function named *BinConvert* that takes a string representing a
+binary number and returns an integer with that number converted to
+decimal.
 
 
+Examples:
 
-* 4 - makeacronym(w)
-
-*** an acronym is an abreviation formed by taking the first letter of a
-series of words. Some examples:
-
-| Phrase                      | Acronym |
-|-----------------------------+---------|
-| Laugh Out Loud              | lol     |
-| Read the... fine manual     | rtfm    |
-| In my humble opinion        | imo     |
-| In my not so humble opinion | imnsho  |
-
-Write a function ~makeacronym(w)~ that takes
-a string as a parameter and returns the acronym formed by taking the
-first letter of each word and making a new string out of them. Assume
-the input string is a sequence of words separated by spaces. Your
-function should also convert all input to lower case.
+| Call               | Returns |
+|--------------------+---------|
+| BinConvert("1")    |       1 |
+| BinConvert("10")   |       2 |
+| BinConvert("11")   |       3 |
+| BinConvert("100")  |       4 |
+| BinConvert("101")  |       5 |
+| BinConvert("1011") |      11 |
 
 
+If you are totally stuck on this, DM me on Zulip and I will provide a
+hint but you won't be able to get full credit if you take the hint.
 
+* * C++
+fizzbuzz
 
