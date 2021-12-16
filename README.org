@@ -43,7 +43,7 @@ some brief description of what the output should be
 
 Followed by the output of your tests.
 
-* isIncreasing (20pts)
+* 1 - isIncreasing (20pts)
 
 Write a function named *isIncreasing* that takes a list of integers as
 a parameter. *isIncraasing* should return *True* if it continually
@@ -52,7 +52,7 @@ etc. otherwise return *False*.
 
  
 
-* NumConvert (20pts)
+* 2 - NumConvert (20pts)
 
 Write a function named *NumConvert*. It should take a list of single
 digit numbers and convert it to an integer and return it.
@@ -64,7 +64,7 @@ Assume all items in the list are positive single digits.
 If you are totally stuck on this, DM me on Zulip and I will provide a
 hint but you won't be able to get full credit if you take the hint.
 
-* BinConvert (20pts)
+* 3 - BinConvert (20pts)
 
 Write a function named *BinConvert* that takes a string representing a
 binary number and returns an integer with that number converted to
@@ -85,7 +85,4 @@ Examples:
 
 If you are totally stuck on this, DM me on Zulip and I will provide a
 hint but you won't be able to get full credit if you take the hint.
-
-* * C++
-fizzbuzz
 
